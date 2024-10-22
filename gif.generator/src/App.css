@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(79,176,109);
+}
+.wrapper,.heading,.random-gifs,.search-gifs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+  padding: 10px;
+}
+.wrapper{
+  width:100vw;
+ flex-direction: column;
+}
+.heading{
+  background-color: white;
+  width:100%;
+
+}
+.random-gifs{
+  width:50%;
+  background-color: aqua;
+  flex-direction: column;
+  gap:10px;
+
+}
+.search-gifs{
+  width:50%;
+  background-color: aqua;
+  flex-direction: column;
+  gap:10px;
+}
